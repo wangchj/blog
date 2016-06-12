@@ -1,0 +1,121 @@
+---
+layout: post
+status: publish
+published: true
+title: New Theme
+author:
+  display_name: Jeff
+  login: admin
+  email: cjw39@hotmail.com
+  url: ''
+author_login: admin
+author_email: cjw39@hotmail.com
+wordpress_id: 628
+wordpress_url: http://codenuggets.com/?p=628
+date: '2014-03-18 02:24:13 -0500'
+date_gmt: '2014-03-18 02:24:13 -0500'
+categories:
+- Blog
+tags:
+- WordPress
+- theme
+- CSS
+comments:
+- id: 2843
+  author: Fourteen Theme | CodeNuggets
+  author_email: ''
+  author_url: http://codenuggets.com/2014/05/06/fourteen-theme/
+  date: '2014-05-06 04:05:49 -0500'
+  date_gmt: '2014-05-06 04:05:49 -0500'
+  content: "[&#8230;] to working on the theme design, called Fourteen, I started a
+    few months ago that I noted in the previous post. Though still a work-in-progress,
+    it is finally at a point where I can use it. I applied the theme [&#8230;]"
+- id: 3071
+  author: free google advertising
+  author_email: nadiagallant@gmail.com
+  author_url: http://www.test.com
+  date: '2014-06-25 01:50:28 -0500'
+  date_gmt: '2014-06-25 01:50:28 -0500'
+  content: "It's in reality a great and useful piece of information. I am satisfied
+    that you shared this useful information with us.\r\n\r\nPlease stay us up to date
+    like this. Thanks for sharing."
+- id: 3126
+  author: tree loppers Birmingham AL
+  author_email: elveraoglesby@gmail.com
+  author_url: http://youtu.be/FOec_OeA90s
+  date: '2014-07-07 23:52:50 -0500'
+  date_gmt: '2014-07-07 23:52:50 -0500'
+  content: "Hi there,  You have done a fantastic job. I'll certainly digg \r\nit and
+    personally recommend to my friends.\r\nI'm confident they'll be benefited from
+    this web site.\r\n\r\nFeel free to surf to my webpage :: <a href=\"http://youtu.be/FOec_OeA90s\"
+    rel=\"nofollow\">tree loppers Birmingham AL</a>"
+- id: 3137
+  author: drake songs download free
+  author_email: berylwolfgram@gmail.com
+  author_url: http://wikhispanics.com/How_To_Be_A_Professional_In_The_Music_World
+  date: '2014-07-09 20:29:24 -0500'
+  date_gmt: '2014-07-09 20:29:24 -0500'
+  content: "I love your blog.. very nice colors & theme.\r\nDid you create this
+    website yourself or did you hire someone to do it for you?\r\nPlz reply as I'm
+    looking to design my own blog and \r\nwould like to find out where u got this
+    from.\r\nappreciate it\r\n\r\nVisit my web page :: <a href=\"http://wikhispanics.com/How_To_Be_A_Professional_In_The_Music_World\"
+    rel=\"nofollow\">drake songs download free</a>"
+- id: 3230
+  author: rundblick-Unna.de
+  author_email: galen_chaney@gmail.com
+  author_url: http://rundblick-Unna.de/unnawiki/index.php/Benutzer:CoyJohanns
+  date: '2014-07-23 00:11:40 -0500'
+  date_gmt: '2014-07-23 00:11:40 -0500'
+  content: "Great web site you have got here.. It's difficult to find quality writing
+    like yours these days.\r\nI really appreciate individuals like you! Take care!!"
+- id: 3245
+  author: the audience social media agency
+  author_email: ricomcdaniel@t-online.de
+  author_url: https://www.youtube.com/watch?v=bEsYg63j2rA
+  date: '2014-07-25 01:28:18 -0500'
+  date_gmt: '2014-07-25 01:28:18 -0500'
+  content: This piece of writing presents clear idea designed for the new viewers
+    of blogging, that really how to do blogging.
+- id: 3254
+  author: washington heights dental clinic
+  author_email: zelmaputnam@gmail.com
+  author_url: https://www.youtube.com/watch?v=c3yVKF-D4Vk
+  date: '2014-07-25 20:01:05 -0500'
+  date_gmt: '2014-07-25 20:01:05 -0500'
+  content: "I love looking through an article that will make \r\nmen and women think.
+    Also, many thanks for allowing me to comment!"
+- id: 3271
+  author: Lawn services mcdonough
+  author_email: carrollfrankfurter@gmail.com
+  author_url: http://www.youtube.com/watch?v=juuwabGrNqg
+  date: '2014-07-27 22:44:51 -0500'
+  date_gmt: '2014-07-27 22:44:51 -0500'
+  content: "My partner and I absolutely love your blog and find many of your post's
+    to be just what I'm looking for.\r\nDoes one offer guest writers to write content
+    for yourself?\r\nI wouldn't mind producing a post or elaborating on a lot of the
+    subjects you write about here.\r\n\r\nAgain, awesome web log!"
+- id: 3272
+  author: angular cheilitis over-the-counter treatments
+  author_email: brigidagoldsmith@gmail.com
+  author_url: https://www.youtube.com/watch?v=3OyE166hs48
+  date: '2014-07-27 22:46:17 -0500'
+  date_gmt: '2014-07-27 22:46:17 -0500'
+  content: "I do not even know how I ended up here, but I thought this post was great.\r\n\r\nI
+    don't know who you are but certainly you are going to a famous blogger if you
+    are not already ;) Cheers!"
+- id: 3282
+  author: Bed Bugs Pest Control Service Chilliwack
+  author_email: mosemcmullen@gmail.com
+  author_url: http://www.youtube.com/watch?v=36YHF4O1NDE
+  date: '2014-07-31 01:42:59 -0500'
+  date_gmt: '2014-07-31 01:42:59 -0500'
+  content: "We are a bunch of volunteers and opening a new scheme in our \r\ncommunity.
+    Your site offered us with helpful information to work on. You \r\nhave performed
+    a formidable process and our whole community will likely be \r\ngrateful to you.\r\n\r\nFeel
+    free to surf to my web-site; <a href=\"http://www.youtube.com/watch?v=36YHF4O1NDE\"
+    rel=\"nofollow\">Bed Bugs Pest Control Service Chilliwack</a>"
+---
+Today I've been updating the theme (look and feel) on this blog. The old theme was the darker <a href="http://wordpress.org/themes/lightword" target="_blank">LightWord</a>. I decided to build my own theme this time (my first time), to make the site exactly the way I wanted. The new is built from the old theme, with heavily modified CSS.
+
+The update is still in progress. Ultimately I want this site to look simple and be responsive (possibly using Bootstrap).
+

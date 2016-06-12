@@ -1,0 +1,69 @@
+---
+layout: post
+status: publish
+published: true
+title: Plus One
+author:
+  display_name: Jeff
+  login: admin
+  email: cjw39@hotmail.com
+  url: ''
+author_login: admin
+author_email: cjw39@hotmail.com
+wordpress_id: 1582
+wordpress_url: http://codenuggets.com/?p=1582
+date: '2016-03-21 16:32:40 -0500'
+date_gmt: '2016-03-21 16:32:40 -0500'
+categories: lintcode
+tags:
+- Java
+- algorithm
+- LeetCode
+- LintCode
+- Google
+- LintCode easy
+- array
+comments: []
+
+---
+Given a non-negative number represented as an array of digits, plus one to the number.
+
+The digits are stored such that the most significant digit is at the head of the list.
+
+**Example**
+
+Given [1,2,3] which represents 123, return [1,2,4].
+
+Given [9,9,9] which represents 999, return [1,0,0,0].
+
+<!--more-->
+
+## Solution
+
+We can use a simple loop to add the result, with a carry variable.
+
+At the end of the loop, carry would only be one if every digit of the input is 9, such as 999. In this case, the result is 1000.
+
+{% highlight java %}
+public class Solution {
+    /**
+     * @param digits a number represented as an array of digits
+     * @return the result
+     */
+    public int[] plusOne(int[] digits) {
+        int carry = 1;
+        for(int i = digits.length - 1; i >= 0; i--) {
+            int a = digits[i] + carry;
+            carry = a == 10 ? 1 : 0;
+            digits[i] = a % 10;
+        }
+        
+        if(carry == 1) {
+            int[] copy = new int[digits.length + 1];
+            copy[0] = 1;
+            digits = copy;
+        }
+        
+        return digits;
+    }
+}{% endhighlight %}

@@ -1,0 +1,30 @@
+---
+layout: post
+status: publish
+published: true
+title: Short Circuit 5K 2013
+author:
+  display_name: Jeff
+  login: admin
+  email: cjw39@hotmail.com
+  url: ''
+author_login: admin
+author_email: cjw39@hotmail.com
+wordpress_id: 469
+wordpress_url: http://codenuggets.com/?p=469
+date: '2013-04-13 15:37:33 -0500'
+date_gmt: '2013-04-13 15:37:33 -0500'
+categories:
+- Uncategorized
+tags:
+- Running
+- 5K
+- Short Circuit 5K
+comments: []
+---
+Ran College of Engineering Short Circuit 5K today. This is my first competitive running. The fastest guy is around 19 minutes. I finished 25:44.
+
+The following is the route.
+
+<a href="http://codenuggets.com/wp-content/uploads/2013/04/eng-short-circuit-5k.jpg"><img src="http://codenuggets.com/wp-content/uploads/2013/04/eng-short-circuit-5k.jpg" alt="eng-short-circuit-5k" width="478" height="640" class="alignnone size-full wp-image-470" /></a>
+

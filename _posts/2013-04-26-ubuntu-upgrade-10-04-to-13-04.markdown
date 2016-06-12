@@ -1,0 +1,43 @@
+---
+layout: post
+status: publish
+published: true
+title: Ubuntu Upgrade 10.04 to 13.04
+author:
+  display_name: Jeff
+  login: admin
+  email: cjw39@hotmail.com
+  url: ''
+author_login: admin
+author_email: cjw39@hotmail.com
+excerpt: "After 3 years running Ubunt 10.04, today I finally updated the Ubuntu machine
+  in my office (ilab-ubuntu) to the latest release 13.04.\r\n\r\nOne of the reason
+  I upgrade is to support my projects. The software on this machine is getting dated
+  and I want to upgrade my PHP to support phpUnit.\r\n\r\nI also installed Cinnamon
+  to replace Unity desktop environment. I installed Cinnamon through the Ubuntu Software
+  Center. The version I find here is cinnamon 1.7.4-1, but the latest version I see
+  on Cinnamon website is Cinnamon 1.6.7, Nemo 1.1.2. Does anyone know why?\r\n\r\n"
+wordpress_id: 477
+wordpress_url: http://codenuggets.com/?p=477
+date: '2013-04-26 03:28:40 -0500'
+date_gmt: '2013-04-26 03:28:40 -0500'
+categories:
+- MDPX
+tags:
+- Ubuntu
+- Cinnamon
+- Ubuntu 13.04
+comments: []
+---
+After 3 years running Ubunt 10.04, today I finally updated the Ubuntu machine in my office (ilab-ubuntu) to the latest release 13.04.
+
+One of the reason I upgrade is to support my projects. The software on this machine is getting dated and I want to upgrade my PHP to support phpUnit.
+
+I also installed Cinnamon to replace Unity desktop environment. I installed Cinnamon through the Ubuntu Software Center. The version I find here is cinnamon 1.7.4-1, but the latest version I see on Cinnamon website is Cinnamon 1.6.7, Nemo 1.1.2. Does anyone know why?
+
+<a id="more"></a><a id="more-477"></a>
+
+<a href="http://codenuggets.com/wp-content/uploads/2013/04/ialb-ub10-04.png"><img class="alignnone size-full wp-image-497" alt="ialb-ub10-04" src="http://codenuggets.com/wp-content/uploads/2013/04/ialb-ub10-04.png" width="630" height="495" /></a>
+
+<a href="http://codenuggets.com/wp-content/uploads/2013/04/php_ilab-ub10-04.html_.gif">phpinfo.html</a>
+

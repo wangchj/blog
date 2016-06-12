@@ -1,0 +1,30 @@
+---
+layout: post
+status: publish
+published: true
+title: CSS Tools
+author:
+  display_name: Jeff
+  login: admin
+  email: cjw39@hotmail.com
+  url: ''
+author_login: admin
+author_email: cjw39@hotmail.com
+wordpress_id: 185
+wordpress_url: http://codenuggets.com/?p=185
+date: '2012-04-12 16:50:58 -0500'
+date_gmt: '2012-04-12 16:50:58 -0500'
+categories:
+- Programming
+- HTML
+- CSS
+tags: []
+comments: []
+---
+## Text Styling
+
+- <a href="http://www.sciweavers.org/i2style" target="_blank">Sciweavers</a>
+
+## Box Shadow
+
+- <a href="http://robertnyman.com/2010/03/16/drop-shadow-with-css-for-all-web-browsers/" target="_blank">Robert's Talk - Drop Shadow With CSS For All Web Browsers</a>

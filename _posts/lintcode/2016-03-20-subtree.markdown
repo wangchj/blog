@@ -1,0 +1,97 @@
+---
+layout: post
+status: publish
+published: true
+title: Subtree
+author:
+  display_name: Jeff
+  login: admin
+  email: cjw39@hotmail.com
+  url: ''
+author_login: admin
+author_email: cjw39@hotmail.com
+wordpress_id: 1576
+wordpress_url: http://codenuggets.com/?p=1576
+date: '2016-03-20 02:41:29 -0500'
+date_gmt: '2016-03-20 02:41:29 -0500'
+categories: lintcode
+tags:
+- Java
+- recursion
+- algorithm
+- LeetCode
+- LintCode
+- Binary Tree
+- LintCode easy
+comments: []
+---
+You have two every large binary trees: T1, with millions of nodes, and T2, with hundreds of nodes. Create an algorithm to decide if T2 is a subtree of T1.
+
+A tree T2 is a subtree of T1 if there exists a node n in T1 such that the subtree of n is identical to T2. That is, if you cut off the tree at node n, the two trees would be identical.
+
+**Example**
+
+T2 is a subtree of T1 in the following case:
+
+```
+       1                3
+      / \              / 
+T1 = 2   3      T2 =  4
+        /
+       4
+```
+
+T2 isn't a subtree of T1 in the following case:
+
+```
+       1               3
+      / \               \
+T1 = 2   3       T2 =    4
+        /
+       4
+```
+
+## Solution
+
+We can use an recursive algorithm to solve this problem, as shown in the code below. Essentially we are checking every node of T1 against T2. Let m = the number of nodes in T1, and n = the number of nodes in T2, the time complexity of this algorithm is O(mn).
+
+{% highlight java %}
+public class Solution {
+    /**
+     * @param T1, T2: The roots of binary tree.
+     * @return: True if T2 is a subtree of T1, or false.
+     */
+    public boolean isSubtree(TreeNode T1, TreeNode T2) {
+        if(T2 == null)
+            return true;
+        if(T1 == null)
+            return false;
+        if(equal(T1, T2))
+            return true;
+        return isSubtree(T1.left, T2) || isSubtree(T1.right, T2);
+    }
+    
+    private boolean equal(TreeNode root1, TreeNode root2) {
+        if(root1 == null && root2 == null)
+            return true;
+        if((root1 == null && root2 != null) ||
+            (root1 != null && root2 == null) ||
+            (root1.val != root2.val))
+            return false;
+        
+        return equal(root1.left, root2.left) && equal(root1.right, root2.right);
+    }
+}
+
+/**
+ * Definition of TreeNode:
+ * public class TreeNode {
+ *     public int val;
+ *     public TreeNode left, right;
+ *     public TreeNode(int val) {
+ *         this.val = val;
+ *         this.left = this.right = null;
+ *     }
+ * }
+ */
+ {% endhighlight %}

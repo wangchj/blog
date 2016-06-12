@@ -1,0 +1,36 @@
+---
+layout: post
+status: publish
+published: true
+title: Fall 2012
+author:
+  display_name: Jeff
+  login: admin
+  email: cjw39@hotmail.com
+  url: ''
+author_login: admin
+author_email: cjw39@hotmail.com
+wordpress_id: 387
+wordpress_url: http://codenuggets.com/?p=387
+date: '2013-02-05 04:17:25 -0600'
+date_gmt: '2013-02-05 04:17:25 -0600'
+categories:
+- School
+- Teaching
+tags:
+- Auburn
+- TA
+- MDPX
+- COMP6120
+- COMP3350
+comments: []
+---
+It's been a while since my last post. One of the reason that I haven't posted in a while is that the Fall 2012 semester was one of the busiest semester for a long time. It is also my first semester to work as TA, so I get to learn to take care of students and grade assignments. It is also one of the reason I've been so busy.
+
+Here is a list of events happened in Fall 2012
+
+- I started working as teach assistant for our department (computer science and software engineering). I was TA for:
+    - Intel Assembly Language: lots of grading every week
+    - Database Systems I: This is a SQL course. There wasn't assignment every week, but when there is assignment, it takes a lot of time and effort to grade.
+- I started working on Magnetized Dusty Plasma Experiment (MDPX) database for Dr. Edward Thomas of Physics department. This is a part time job to design a MySQL relational database to record their experiment results.
+- I met a few excellent friends: Mu-Fan Chen, Alison Wu, Tiffany Yen. We had fun trips to Montgomery, West Virginia, and Philadelphia. I also met other good friends who aren't listed here.
