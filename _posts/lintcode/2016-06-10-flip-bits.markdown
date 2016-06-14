@@ -5,7 +5,7 @@ categories: lintcode
 tags:
 - Java
 - algorithm
-- Kernighma's Algrithm
+- Kernighan's Algorithm
 - Cracking The Coding Interview
 - Bit Manipulation
 comments: []

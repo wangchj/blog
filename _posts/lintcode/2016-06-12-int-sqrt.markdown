@@ -1,0 +1,63 @@
+---
+layout: post
+title: Integer Square Root, sqrt(x)
+categories: lintcode
+tags:
+- Java
+- algorithm
+- Binary Search
+- Mathematics
+- Facebook
+---
+
+Implement square root function, `sqrt(x)`, that returns an integer result. The algorithm should run in O(log x).
+
+Example
+
+```
+sqrt(3)  = 1
+sqrt(4)  = 2
+sqrt(5)  = 2
+sqrt(10) = 3
+```
+
+Use binary search to find the result.
+
+{% highlight java %}
+class Solution {
+    /**
+     * @param x: An integer
+     * @return: The sqrt of x
+     */
+    public int sqrt(int x) {
+         if(x == 0)
+            return 0;
+        if(x == 1)
+            return 1;
+            
+        //Perform binary search
+        
+        long left = 0;
+        long right = x;
+        
+        while(left <= right) {
+            long mid = (right - left) / 2 + left;
+            
+            long ms = mid * mid;
+            
+            if(ms == x)
+                return (int)mid;
+            
+            if(ms < x && (mid + 1) * (mid + 1) > x)
+                return (int)mid;
+            
+            if(ms < x)
+                left = mid + 1;
+            else
+                right = mid - 1;
+        }
+        
+        return 0;
+    }
+}
+{% endhighlight %}
