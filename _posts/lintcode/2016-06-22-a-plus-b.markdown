@@ -1,0 +1,37 @@
+---
+layout: post
+title: A + B Problem
+categories: lintcode
+tags:
+- Java
+- Algorithm
+- Cracking the Coding Interview
+- Bit Manipulation
+---
+
+Write a function that add two numbers `A` and `B` without using any arithmetic operators (`+`, `-`, `×`, `÷`) and only use bit operators.
+
+Example
+
+Given `a = 1` and `b = 2` return `3`
+
+{% highlight java %}
+class Solution {
+    /*
+     * param a: The first integer
+     * param b: The second integer
+     * return: The sum of a and b
+     */
+    public int aplusb(int a, int b) {
+        int sum = 0, carry = 0;
+        sum = a ^ b;
+        carry = (a & b) << 1;
+        while(carry != 0) {
+            int tempSum = sum ^ carry;
+            carry = (sum & carry) << 1;
+            sum = tempSum;
+        }
+        return sum;
+    }
+}
+{% endhighlight %}
