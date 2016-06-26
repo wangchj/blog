@@ -202,7 +202,11 @@
     font-size: 24px;
 }
 
-
+.breadcrumb {
+    font-size: $small-font-size;
+    color: $grey-color;
+    margin-bottom: $spacing-unit;
+}
 
 /**
  * Posts

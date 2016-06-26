@@ -15,3 +15,11 @@ markdown: kramdown
 gems: [jekyll-paginate]
 paginate: 10
 #excerpt_separator: <!--more-->
+
+defaults:
+  -
+    scope:
+      path: "_posts/lintcode"
+      type: "posts"
+    values:
+      breadcrumb: "Coding Interview / LintCode & LeetCode"
