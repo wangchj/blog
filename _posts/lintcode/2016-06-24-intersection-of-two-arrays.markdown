@@ -16,9 +16,11 @@ Given two arrays, representing sets, write a function to compute the intersectio
 Example
 
 ```
-[1, 2, 3, 1] intersects [2, 2] = [2]
-[1, 2, 3, 4] intersects [3, 4] = [3, 4]
-[1, 2, 3, 4] intersects [5, 6] = []
+Array 1         Array 2      Intersection
+[]              [1, 2]       []
+[1, 2, 3, 4]    [3, 4]       [3, 4]
+[1, 2, 2, 1]    [1, 2, 2]    [1, 2]
+[1, 2, 3, 4]    [5, 6]       []
 ```
 
 {% highlight java %}
