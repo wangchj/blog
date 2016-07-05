@@ -9,7 +9,7 @@ tags:
 - Hash Table
 ---
 
-Given two arrays, write a function to compute their intersection. An element in the result array can have duplicates, but the duplicate should appear as many times as in both arrays. The result array can be in any order.
+Given two arrays, write a function to compute their intersection. Each element in the result array can have duplicates, but the duplicates should only appear as many times as in both arrays. The result array can be in any order.
 
 
 Example
