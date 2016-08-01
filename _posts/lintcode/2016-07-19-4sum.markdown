@@ -1,0 +1,125 @@
+---
+layout: post
+title: 4Sum
+categories: lintcode
+tags:
+- Java
+- Algorithm
+- Array
+- Hash Table
+- Sort
+- Two Pointers
+---
+
+Given an array `S` of `n` integers, are there elements `a`, `b`, `c`, and `d` in `S` such that `a + b + c + d = target`? Find all unique quadruplets in the array which gives the sum of target. Elements in a quadruplet `(a, b, c, d)` must be in non-descending order. (ie, `a ≤ b ≤ c ≤ d`) The solution set must not contain duplicate quadruplets.
+
+Example
+
+Given array `S = {1, 0, -1, 0, -2, 2}`, and `target = 0`. A solution set is:
+
+```
+(-1, 0, 0, 1)
+(-2, -1, 1, 2)
+(-2, 0, 0, 2)
+```
+
+Naive O(n<sup>4</sup>) solution. Time Limit Exceeded.
+
+{% highlight java %}
+public class Solution {
+    /**
+     * @param numbers : Give an array numbersbers of n integer
+     * @param target : you need to find four elements that's sum of target
+     * @return : Find all unique quadruplets in the array which gives the sum of
+     *           zero.
+     */
+    public ArrayList<ArrayList<Integer>> fourSum(int[] numbers, int target) {
+        ArrayList<ArrayList<Integer>> res = new ArrayList<ArrayList<Integer>>();
+        for (int i = 0; i < numbers.length - 3; i++) {
+            for (int j = i + 1; j < numbers.length - 2; j++) {
+                for (int k = j + 1; k < numbers.length - 1; k++) {
+                    for (int l = k + 1; l < numbers.length; l++) {
+                        int a = numbers[i], b = numbers[j],
+                            c = numbers[k], d = numbers[l];
+                        if (a + b + c + d == target) {
+                            ArrayList<Integer> quad = new ArrayList<>();
+                            quad.add(a); quad.add(b); quad.add(c); quad.add(d);
+                            Collections.sort(quad);
+                            if (!res.contains(quad))
+                                res.add(quad);
+                        }
+                    }
+                }
+            }
+        }
+        return res;
+    }
+}
+{% endhighlight %}
+
+O(n<sup>3</sup>) solution:
+
+{% highlight java %}
+public class Solution {
+    /**
+     * @param numbers : Give an array numbersbers of n integer
+     * @param target : you need to find four elements that's sum of target
+     * @return : Find all unique quadruplets in the array which gives the sum of
+     *           zero.
+     */
+    public ArrayList<ArrayList<Integer>> fourSum(int[] numbers, int target) {
+        ArrayList<ArrayList<Integer>> res = new ArrayList<ArrayList<Integer>>();
+        for (int i = 3; i < numbers.length; i++) {
+            ArrayList<ArrayList<Integer>> s = 
+                threeSum(numbers, target - numbers[i], i);
+            for (ArrayList<Integer> r : s) {
+                r.add(numbers[i]);
+                Collections.sort(r);
+                if (!res.contains(r))
+                    res.add(r);
+            }
+        }
+        return res;
+    }
+    
+    /**
+     * Find triples in the array that sums to the target, t, with index upper
+     * bound, u.
+     */
+    public ArrayList<ArrayList<Integer>> threeSum(int[] numbers, int t, int u) {
+        ArrayList<ArrayList<Integer>> res = new ArrayList<ArrayList<Integer>>();
+        for (int i = 2; i < u; i++) {
+            ArrayList<ArrayList<Integer>> s = twoSum(numbers, t - numbers[i], i);
+            for (ArrayList<Integer> r : s) {
+                r.add(numbers[i]);
+                Collections.sort(r);
+                if (!res.contains(r))
+                    res.add(r);
+            }
+        }
+        return res;
+    }
+    
+    /**
+     * Find pairs that sum to the target, t, in the array with index upper
+     * bound, u.
+     */
+    public ArrayList<ArrayList<Integer>> twoSum(int[] numbers, int t, int u) {
+        ArrayList<ArrayList<Integer>> res = new ArrayList<ArrayList<Integer>>();
+        HashSet<Integer> set = new HashSet<>();
+        for (int i = 0; i < u; i++) {
+            if (set.contains(t - numbers[i])) {
+                ArrayList<Integer> pair = new ArrayList<>();
+                int a = t - numbers[i];
+                int b = numbers[i];
+                pair.add(Math.min(a, b));
+                pair.add(Math.max(a, b));
+                if (!res.contains(pair))
+                    res.add(pair);
+            }
+            set.add(numbers[i]);
+        }
+        return res;
+    }
+}
+{% endhighlight %}

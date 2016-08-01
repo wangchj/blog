@@ -1,0 +1,99 @@
+---
+layout: post
+title: 3Sum
+categories: lintcode
+tags:
+- Java
+- Algorithm
+- Array
+- Sort
+- Facebook
+---
+
+Given an array `S` of `n` integers, are there elements `a`, `b`, `c` in `S` such that `a + b + c = 0`? Find all unique triplets in the array which gives the sum of zero. Elements in a triplet `(a, b ,c)` must be in non-descending order. (ie, `a ≤ b ≤ c`)
+
+The solution set must not contain duplicate triplets.
+
+Example
+
+```
+Array                Solutions
+[-1, 0, 1, 2, -1]    (-1, 0, 1)
+                     (-1, -1, 2)
+```
+
+Naive O(n<sup>3</sup>) solution:
+
+{% highlight java %}
+public class Solution {
+    /**
+     * @param numbers : Give an array numbers of n integer
+     * @return : Find all unique triplets in the array which gives the sum of zero.
+     */
+    public ArrayList<ArrayList<Integer>> threeSum(int[] numbers) {
+        ArrayList<ArrayList<Integer>> res = new ArrayList<ArrayList<Integer>>();
+        for (int i = 0; i < numbers.length - 2; i++) {
+            for (int j = i + 1; j < numbers.length - 1; j++) {
+                for (int k = j + 1; k < numbers.length; k++) {
+                    if (numbers[i] + numbers[j] + numbers[k] == 0) {
+                        ArrayList<Integer> triple = new ArrayList<>();
+                        triple.add(numbers[i]);
+                        triple.add(numbers[j]);
+                        triple.add(numbers[k]);
+                        Collections.sort(triple);
+                        if (!res.contains(triple))
+                            res.add(triple);
+                    }
+                }
+            }
+        }
+        return res;
+    }
+}
+{% endhighlight %}
+
+O(n<sup>2</sup>) solution:
+
+{% highlight java %}
+public class Solution {
+    /**
+     * @param numbers : Give an array numbers of n integer
+     * @return : Find all unique triplets in the array which gives the sum of zero.
+     */
+    public ArrayList<ArrayList<Integer>> threeSum(int[] numbers) {
+        ArrayList<ArrayList<Integer>> res = new ArrayList<ArrayList<Integer>>();
+        for (int i = 2; i < numbers.length; i++) {
+            ArrayList<ArrayList<Integer>> pairs = twoSum(numbers, -1 * numbers[i], i);
+            for (ArrayList<Integer> r : pairs) {
+                r.add(numbers[i]);
+                Collections.sort(r);
+                if (!res.contains(r))
+                    res.add(r);
+            }
+        }
+        return res;
+    }
+    
+    /**
+     * Find pairs that sum to the target, t, in the array with index upper
+     * bound, u.
+     */
+    public ArrayList<ArrayList<Integer>> twoSum(int[] numbers, int t, int u) {
+        ArrayList<ArrayList<Integer>> res = new ArrayList<ArrayList<Integer>>();
+        HashSet<Integer> set = new HashSet<>();
+        for (int i = 0; i < u; i++) {
+            if (set.contains(t - numbers[i])) {
+                ArrayList<Integer> pair = new ArrayList<>();
+                int a = t - numbers[i];
+                int b = numbers[i];
+                pair.add(Math.min(a, b));
+                pair.add(Math.max(a, b));
+                if (!res.contains(pair))
+                    res.add(pair);
+            }
+            set.add(numbers[i]);
+        }
+        return res;
+    }
+}
+{% endhighlight %}
