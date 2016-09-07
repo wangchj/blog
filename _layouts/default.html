@@ -9,6 +9,20 @@
 
     <div class="page-content">
       <div class="wrapper">
+
+        {% if page.crumbs %}
+          <p class="breadcrumb">
+            {% for crumb in page.crumbs %}
+              {% if site.categories contains crumb.key %}
+                <a href="/{{crumb.key}}">{%if crumb.label%}{{crumb.label}}{%else%}{{crumb.key}}{%endif%}</a>
+              {% else %}
+                {%if crumb.label%}{{crumb.label}}{%else%}{{crumb.key}}{%endif%}
+              {% endif %}
+              {% if crumb != page.crumbs.last %}/{% endif %}
+            {% endfor %}
+          </p>
+        {% endif %}
+
         {{ content }}
       
         <!-- Google Adsense -->

@@ -22,4 +22,8 @@ defaults:
       path: "_posts/lintcode"
       type: "posts"
     values:
-      breadcrumb: "Coding Interview / LintCode & LeetCode"      permalink: /lintcode/:title
+      crumbs:
+        - key: Coding Interview
+        - key: lintcode
+          label: LintCode & LeetCode
+      permalink: /lintcode/:title
