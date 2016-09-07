@@ -22,4 +22,4 @@ defaults:
       path: "_posts/lintcode"
       type: "posts"
     values:
-      breadcrumb: "Coding Interview / LintCode & LeetCode"
+      breadcrumb: "Coding Interview / LintCode & LeetCode"      permalink: /lintcode/:title

@@ -1,0 +1,17 @@
+---
+layout: page
+title: LintCode Solution
+crumbs:
+  -
+    key: Coding Interview
+  - 
+    key: lintcode
+    label: LintCode & LeetCode
+---
+
+<ol>
+  {% for post in site.categories.lintcode %}
+    <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ol>
+
