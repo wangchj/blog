@@ -13,8 +13,8 @@ Given an absolute path for a file (Unix-style), simplify it.
 
 The rules for a path follows:
 
-1. The symbol `.` indicates the current location. For example, `/a/./` can be simplied to `/a/`.
-2. The symbol `..` indicates the parent location. For example, `/a/b/../` can be simplied to `/a/`.
+1. The symbol `.` indicates the current location. For example, `/a/./` can be simplied to `/a`.
+2. The symbol `..` indicates the parent location. For example, `/a/b/../` can be simplied to `/a`.
 3. Multiple slashes can be ignore. For example,  `/home//foo` ca be simplified to `/home/foo`.
 
 Example
