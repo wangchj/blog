@@ -1,0 +1,164 @@
+<html>
+<head>
+<meta name="description" content="A challenging hangman game where the player guesses the four letter word. The game is written in jQuery, JavaScript, and HTML.">
+<title>Four Letter Word Game</title>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+
+<script type="text/JavaScript" src="game.js"></script>
+
+<style type="text/css">
+body
+{
+    background-color:#001111;
+    /*font-size:2.5em;*/
+}
+h1
+{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size:4em;
+    color:#435555;
+}
+.mask
+{
+    color:#ddeded;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size:6em;
+    font-weight: bold;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #ffffff;
+    width:10px;
+}
+#keyboard
+{
+    margin-top:2em;
+}
+.key
+{
+    color: 435555;
+    background-color: 001f1f;
+    font-family:Verdana,Geneva,sans-serif;
+    font-size:2em;
+    border:1px solid #384747;
+    border-radius: 5px;
+    display:inline-block;
+    width:1.4em;
+    height:1.2em;
+    margin-bottom:5px;
+}
+.key:hover
+{
+    color:99bbbc;
+    border:1px solid 99bbbc;
+}
+.keymiss
+{
+    font-family:Verdana,Geneva,sans-serif;
+    font-size:2em;
+    background-color: 301210;
+    border:1px solid 3e1715;
+    border-radius: 5px;
+    display:inline-block;
+    width:1.4em;
+    height:1.2em;
+    margin-bottom:5px;
+}
+.keyhit
+{
+    /*color: 435555;*/
+    background-color: 141a1a;
+    font-family:Verdana,Geneva,sans-serif;
+    font-size:2em;
+    border:1px solid 242e2e;
+    border-radius: 5px;
+    display:inline-block;
+    width:1.4em;
+    height:1.2em;
+    margin-bottom:5px;
+}
+.progress
+{
+    margin-top:2em;
+
+}
+
+</style>
+</head>
+<body>
+<center>
+<h1>Four Letter Word</h1>
+<span class="mask" id="mask1">S</span> <span class="mask" id="mask2">E</span> <span class="mask" id="mask3">A</span> <span class="mask" id="mask4">T</span>
+
+<div class="progress">
+        <img class="chance" src="dot_blue.png"/> <img  class="chance" src="dot_blue.png"/> <img  class="chance" src="dot_blue.png"/> <img  class="chance" src="dot_blue.png"/> <img  class="chance" src="dot_blue.png"/> <img  class="chance" src="dot_blue.png"/> <img  class="chance" src="dot_blue.png"/> <img  class="chance" src="dot_blue.png"/>
+         <img  class="chance" src="dot_blue.png"/> <img  class="chance" src="dot_blue.png"/> <img  class="chance" src="dot_blue.png"/> <img  class="chance" src="dot_blue.png"/> <img  class="chance" src="dot_blue.png"/> <img  class="chance" src="dot_blue.png"/> <img  class="chance" src="dot_blue.png"/>
+</div>
+
+<div id="keyboard">
+    <div class="keyrow">
+        <span class="key">Q</span> <span class="key">W</span> <span class="key">E</span> <span class="key">R</span> <span class="key">T</span> <span class="key">Y</span> <span class="key">U</span> <span class="key">I</span> <span class="key">O</span> <span class="key">P</span>
+    </div>
+    <div class="keyrow">
+        <span class="key">A</span> <span class="key">S</span> <span class="key">D</span> <span class="key">F</span> <span class="key">G</span> <span class="key">H</span> <span class="key">J</span> <span class="key">K</span> <span class="key">L</span>
+    </div>
+    <div class="keyrow">
+        <span class="key">Z</span> <span class="key">X</span> <span class="key">C</span> <span class="key">V</span> <span class="key">B</span> <span class="key">N</span> <span class="key">M</span>
+    </div>
+</div>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- four-letter-word -->
+
+<br /><br />
+
+<!-- Adsense -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Leaderboard -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-1786819164979340"
+     data-ad-slot="7556517715"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!-- End Adsense -->
+
+<br /><br />
+
+<!-- Amazon Ad -->
+<div class="alignleft">  
+<script type='text/javascript'>
+ amzn_assoc_ad_type = 'banner';
+ amzn_assoc_tracking_id = 'codenugg-20';
+ amzn_assoc_marketplace = 'amazon';
+ amzn_assoc_region = 'US';
+ amzn_assoc_placement = 'assoc_banner_placement_default';
+ amzn_assoc_linkid = 'GDE47AYGXCESYTME';
+ amzn_assoc_campaigns = 'gift_certificates';
+ amzn_assoc_p = '13';
+ amzn_assoc_banner_type = 'category';
+ amzn_assoc_isresponsive = 'false';
+ amzn_assoc_banner_id = '180TQ0K9X17QCCZQS4R2';
+ amzn_assoc_width = '468';
+ amzn_assoc_height = '60';
+</script>
+<script src='//z-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1'></script>
+</div>
+<!-- End Amazon Ad -->
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48945915-2', 'codenuggets.com');
+  ga('send', 'pageview');
+
+</script>
+
+</center>
+</body>
+</html>
