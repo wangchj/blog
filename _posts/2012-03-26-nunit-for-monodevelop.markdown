@@ -111,13 +111,13 @@ I want to do some testing of my project with unit testing. I've search the web a
 
 Install the plugin from the software center.
 
-<a href="http://codenuggets.com/wp-content/uploads/2012/03/InstallNUnitPluginForMonoDevelop.png"><img class="size-medium wp-image-116 " title="Install NUnit Plugin for MonoDevelop" src="http://codenuggets.com/wp-content/uploads/2012/03/InstallNUnitPluginForMonoDevelop-300x180.png" alt="Install NUnit Plugin for MonoDevelop" width="300" height="180" /></a> Install NUnit Plugin for MonoDevelop
+<a href="/images/uploads/2012/03/InstallNUnitPluginForMonoDevelop.png"><img class="size-medium wp-image-116 " title="Install NUnit Plugin for MonoDevelop" src="/images/uploads/2012/03/InstallNUnitPluginForMonoDevelop-300x180.png" alt="Install NUnit Plugin for MonoDevelop" width="300" height="180" /></a> Install NUnit Plugin for MonoDevelop
 
 After installing, MonoDevelop will have an option for Unit Testing under the View menu as well as panels for running and showing results for tests.
 
-<a href="http://codenuggets.com/wp-content/uploads/2012/03/ViewUnitTestingMenu.png"><img class="size-medium wp-image-164 " title="MonoDevelop Unit Testing Menu" src="http://codenuggets.com/wp-content/uploads/2012/03/ViewUnitTestingMenu-300x169.png" alt="MonoDevelop Unit Testing Menu" width="300" height="169" /></a> MonoDevelop Unit Testing Menu
+<a href="/images/uploads/2012/03/ViewUnitTestingMenu.png"><img class="size-medium wp-image-164 " title="MonoDevelop Unit Testing Menu" src="/images/uploads/2012/03/ViewUnitTestingMenu-300x169.png" alt="MonoDevelop Unit Testing Menu" width="300" height="169" /></a> MonoDevelop Unit Testing Menu
 
-<a href="http://codenuggets.com/wp-content/uploads/2012/03/MonoDevelopUnitTestPanels.png"><img class="size-medium wp-image-165 " title="MonoDevelop Unit Test Panels" src="http://codenuggets.com/wp-content/uploads/2012/03/MonoDevelopUnitTestPanels-300x161.png" alt="MonoDevelop Unit Test Panels" width="300" height="161" /></a> MonoDevelop Unit Test and Result Panels
+<a href="/images/uploads/2012/03/MonoDevelopUnitTestPanels.png"><img class="size-medium wp-image-165 " title="MonoDevelop Unit Test Panels" src="/images/uploads/2012/03/MonoDevelopUnitTestPanels-300x161.png" alt="MonoDevelop Unit Test Panels" width="300" height="161" /></a> MonoDevelop Unit Test and Result Panels
 
 ## Create Test Project
 

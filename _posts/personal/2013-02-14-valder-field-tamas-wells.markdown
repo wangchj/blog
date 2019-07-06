@@ -22,7 +22,7 @@ tags:
 - Tamas Wells
 comments: []
 ---
-<a href="http://codenuggets.com/wp-content/uploads/2013/02/1.jpg"><img src="http://codenuggets.com/wp-content/uploads/2013/02/1.jpg" width="540px" /></a><a href="http://codenuggets.com/wp-content/uploads/2013/02/2.jpg"><img src="http://codenuggets.com/wp-content/uploads/2013/02/2.jpg" width="540px" /></a><a href="http://codenuggets.com/wp-content/uploads/2013/02/3.jpg"><img src="http://codenuggets.com/wp-content/uploads/2013/02/3.jpg" width="540px" /></a>
+<a href="/images/uploads/2013/02/1.jpg"><img src="/images/uploads/2013/02/1.jpg" width="540px" /></a><a href="/images/uploads/2013/02/2.jpg"><img src="/images/uploads/2013/02/2.jpg" width="540px" /></a><a href="/images/uploads/2013/02/3.jpg"><img src="/images/uploads/2013/02/3.jpg" width="540px" /></a>
 
 <a href="http://www.ccjt.net/wy_html/8382.htm">http://www.ccjt.net/wy_html/8382.htm</a>
 

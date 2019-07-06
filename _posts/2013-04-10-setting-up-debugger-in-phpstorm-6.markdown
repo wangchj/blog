@@ -92,15 +92,15 @@ Restart Apache
 
 Go into Files -> Settings -> Click on PHP. Select an interpreter. The screen should look like follows.
 
-<a href="http://codenuggets.com/wp-content/uploads/2013/04/PHPStorm6-PHP-Settings.png"><img src="http://codenuggets.com/wp-content/uploads/2013/04/PHPStorm6-PHP-Settings-1024x527.png" alt="PHPStorm6-PHP-Settings" width="550" height="283" class="alignnone size-large wp-image-462" /></a>
+<a href="/images/uploads/2013/04/PHPStorm6-PHP-Settings.png"><img src="/images/uploads/2013/04/PHPStorm6-PHP-Settings-1024x527.png" alt="PHPStorm6-PHP-Settings" width="550" height="283" class="alignnone size-large wp-image-462" /></a>
 
 Click on '...' for Interpreter. The Interpreters window shows up (see below). Click on the green +, and an interpreter. Choose Xdebug for debugger and click OK.
 
-<a href="http://codenuggets.com/wp-content/uploads/2013/04/PHPStorm6-Add-Interpreter.png"><img src="http://codenuggets.com/wp-content/uploads/2013/04/PHPStorm6-Add-Interpreter.png" alt="PHPStorm6 Add Interpreter" width="550" class="alignnone" /></a>
+<a href="/images/uploads/2013/04/PHPStorm6-Add-Interpreter.png"><img src="/images/uploads/2013/04/PHPStorm6-Add-Interpreter.png" alt="PHPStorm6 Add Interpreter" width="550" class="alignnone" /></a>
 
 Click on Debug in the Settings Window. The settings should match what you get back from installing Xdebug.
 
-<a href="http://codenuggets.com/wp-content/uploads/2013/04/PHPStorm-PHP-Debug-Settings.png"><img src="http://codenuggets.com/wp-content/uploads/2013/04/PHPStorm-PHP-Debug-Settings.png" alt="PHPStorm-PHP-Debug-Settings" width="550" class="alignnone size-large wp-image-463" /></a>
+<a href="/images/uploads/2013/04/PHPStorm-PHP-Debug-Settings.png"><img src="/images/uploads/2013/04/PHPStorm-PHP-Debug-Settings.png" alt="PHPStorm-PHP-Debug-Settings" width="550" class="alignnone size-large wp-image-463" /></a>
 
 Click on Apply button and OK.
 
@@ -108,7 +108,7 @@ Click on Apply button and OK.
 
 Go into Run -> Edit Configurations.
 
-<a href="http://codenuggets.com/wp-content/uploads/2013/04/Screenshot-Run-Debug-Configurations.png"><img src="http://codenuggets.com/wp-content/uploads/2013/04/Screenshot-Run-Debug-Configurations.png" alt="Screenshot-Run-Debug Configurations" width="550" class="alignnone" /></a>
+<a href="/images/uploads/2013/04/Screenshot-Run-Debug-Configurations.png"><img src="/images/uploads/2013/04/Screenshot-Run-Debug-Configurations.png" alt="Screenshot-Run-Debug Configurations" width="550" class="alignnone" /></a>
 
 Click on the "green plus" and select PHP Web Application
 
@@ -119,7 +119,7 @@ Next to Server, click on the "..." button and servers settings shows up. Click o
 - Port: 80
 - Debugger: Xdebug
 
-<a href="http://codenuggets.com/wp-content/uploads/2013/04/Screenshot-PHPStorm-Servers.png"><img src="http://codenuggets.com/wp-content/uploads/2013/04/Screenshot-PHPStorm-Servers.png" alt="Screenshot-PHPStorm-Servers" width="550" class="alignnone" /></a>
+<a href="/images/uploads/2013/04/Screenshot-PHPStorm-Servers.png"><img src="/images/uploads/2013/04/Screenshot-PHPStorm-Servers.png" alt="Screenshot-PHPStorm-Servers" width="550" class="alignnone" /></a>
 
 Click on OK
 

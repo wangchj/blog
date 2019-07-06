@@ -49,11 +49,11 @@ Primitive types also have the properties that they are fixed sized, such that al
 
 Conceptually, computer memory is a set of storage cells, each with an address. For example, the figure below shows a block of memory with address from `100` to `104`
 
-<img src="http://codenuggets.com/wp-content/figures/java-data-and-data-types-2/memory.png" />
+<img src="/images/figures/java-data-and-data-types-2/memory.png" />
 
 When a variable of a primitive type is declared, `int myInt = 10;` for example, this variable represents a memory location. In the figure below, `myInt` represent memory location `102` and we can use `myInt` to store to and read from this memory location. In addition, when the program is compiled, all occurrences of `myInt` is replaced with memory address `102`. For example, when we write the statement `myInt = 10;`, it literally means, set the content of memory location `102` to integer `10`.
 
-<img src="http://codenuggets.com/wp-content/figures/java-data-and-data-types-2/memory-primitive.png" />
+<img src="/images/figures/java-data-and-data-types-2/memory-primitive.png" />
 
 ## Reference Types
 
@@ -63,7 +63,7 @@ Let's say we have this statement in our program: `String s = "Hello";`
 
 What this statement does is assign a memory location to `s`, but the location does not store the string `"Hello"`, but the address of it, as shown in the figure below. In the figure, `s` represents memory address `101`. However, at this location, the location of the string `"Hello"` is stored which is at location `150`.
 
-<img src="http://codenuggets.com/wp-content/figures/java-data-and-data-types-2/memory-reference.png" />
+<img src="/images/figures/java-data-and-data-types-2/memory-reference.png" />
 
 Also note that objects (the actual data) may take more than 1 memory locations. In fact, some data may take many memory locations (use lots of memory) as in a long array. One justification for storing references instead of the actual data is that since the compiler does not know how large the actual data will be when the program is executed, JVM has to find a memory location large enough for the data during runtime.
 
@@ -122,7 +122,7 @@ class Person {
 Person p = new Person(1, "John");
 {% endhighlight %}
 
-<img src="http://codenuggets.com/wp-content/figures/java-data-and-data-types-2/memory-person.png" />
+<img src="/images/figures/java-data-and-data-types-2/memory-person.png" />
 
 Note that arrays are also reference types. The following figure shows how an array of objects are stored.
 
@@ -130,4 +130,4 @@ Note that arrays are also reference types. The following figure shows how an arr
 String[] names = {"Abe", "Bob", "Cid"};
 {% endhighlight %}
 
-<img src="http://codenuggets.com/wp-content/figures/java-data-and-data-types-2/memory-array.png" />
+<img src="/images/figures/java-data-and-data-types-2/memory-array.png" />

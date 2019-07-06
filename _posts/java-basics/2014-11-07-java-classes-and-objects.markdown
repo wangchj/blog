@@ -58,7 +58,7 @@ An object is simply a concept, in our program, for which we can keep track of an
 
 In Java (being purely OOP), the program itself is a special object, which contains a special method named `main()`. This object starts the program and control interaction between objects. The follow figure shows this example.
 
-<center><img src="http://codenuggets.com/wp-content/figures/java-classes-and-objects/car_obj.png" /></center>
+<center><img src="/images/figures/java-classes-and-objects/car_obj.png" /></center>
 
 An object does not have to reflect a real-world concept. For example, rectangles, imaginary numbers are a few abstract concepts that can also be modeled in program using objects.
 
@@ -70,7 +70,7 @@ In this section we are going to write a simple `Rectangle` class. Each class sho
 
 The class has 2 member variables, `width` and `height`, both integers. We're going to add one rule that the `width` must be greater than `height`. The class will also contain one method `area()`, which computes and returns the area of the rectangle.
 
-<center><img src="http://codenuggets.com/wp-content/figures/java-classes-and-objects/rec_class.png" /></center>
+<center><img src="/images/figures/java-classes-and-objects/rec_class.png" /></center>
 
 We are going to write this class in simple steps: define class, member variables, method, constructor, class instantiation.
 

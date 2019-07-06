@@ -50,7 +50,7 @@ For example, the following code fragment contains two non-float `div` elements a
 <div style="float:none">The second non-float div</div>
 {% endhighlight %}
 
-<center><img src="http://codenuggets.com/wp-content/figures/css-float-explained/nonfloat.png"></center>
+<center><img src="/images/figures/css-float-explained/nonfloat.png"></center>
 
 When the float property is set to either `left` or `right`, the element is taken out of the normal flow, and content that flow normally will wrap around the element.
 
@@ -64,7 +64,7 @@ For example, in the following code fragment, the first `div` floats left, so the
 </div>
 {% endhighlight %}
 
-<center><img src="http://codenuggets.com/wp-content/figures/css-float-explained/floats.png"></center>
+<center><img src="/images/figures/css-float-explained/floats.png"></center>
 
 To illustrate this point further, when a float element is nested inside a non-float element, it is taken out of the layout of the parent element. However, when both the child and the parent are floats, the child is not take out the flow of the parent as shown below.
 
@@ -81,7 +81,7 @@ To illustrate this point further, when a float element is nested inside a non-fl
 </div>
 {% endhighlight %}
 
-<center><img src="http://codenuggets.com/wp-content/figures/css-float-explained/nested1.png" style="margin-right:20px"> <img src="http://codenuggets.com/wp-content/figures/css-float-explained/nested2.png"></center>
+<center><img src="/images/figures/css-float-explained/nested1.png" style="margin-right:20px"> <img src="/images/figures/css-float-explained/nested2.png"></center>
 
 Keep in mind though, the order of the elements matter. Let's say two sibling elements, A and B, with the same parents. A is a float and B is a non-float. B's content would only flow around A if, A's HTML tags comes before B's HTML tags in the source code.
 
@@ -101,4 +101,4 @@ The first code fragment below has a float element that comes after a non-float e
 <div style="float:left;width:200px;border:1px solid red">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</div>
 {% endhighlight %}
 
-<center><img src="http://codenuggets.com/wp-content/figures/css-float-explained/order1.png" style="margin-right:20px"> <img src="http://codenuggets.com/wp-content/figures/css-float-explained/order2.png"></center>
+<center><img src="/images/figures/css-float-explained/order1.png" style="margin-right:20px"> <img src="/images/figures/css-float-explained/order2.png"></center>

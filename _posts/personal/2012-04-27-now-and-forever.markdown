@@ -36,7 +36,7 @@ comments: []
 </tr>
 </tr>
 </table>
-<img src="http://codenuggets.com/wp-content/uploads/2012/04/Now-and-Forever-612x1024.png" alt="" title="Now and Forever Chrods" width="640" />
+<img src="/images/uploads/2012/04/Now-and-Forever-612x1024.png" alt="" title="Now and Forever Chrods" width="640" />
 
 <iframe width="640" height="480" src="http://www.youtube.com/embed/OeDiK2uy3DU" frameborder="0" allowfullscreen></iframe>
 

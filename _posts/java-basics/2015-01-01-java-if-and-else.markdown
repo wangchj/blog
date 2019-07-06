@@ -52,7 +52,7 @@ if (friday) {
 System.out.println("Goodbye");
 {% endhighlight %}
 
-<center><img src="http://codenuggets.com/wp-content/figures/java-if-else/if.png" /></center>
+<center><img src="/images/figures/java-if-else/if.png" /></center>
 
 Line 3 is the start of the `if` statement, which contains a very simple condition, `friday`. The condition must be enclosed in parentheses. The condition can be a very complex boolean expression or can simply be a boolean variable, as in this case. Spaces are generally not important in Java and can be added or removed to prettify the code.
 
@@ -75,7 +75,7 @@ else {
 System.out.println("Goodbye");
 {% endhighlight %}
 
-<center><img src="http://codenuggets.com/wp-content/figures/java-if-else/if-else.png" /></center>
+<center><img src="/images/figures/java-if-else/if-else.png" /></center>
 
 If the condition `friday` is `true`, then the program prints out `"Happy Friday!"`; otherwise it prints out `"Have a goody day!"`. Once again the braces is optional for the `else` section. If omitted, only one line is consider the body.
 
@@ -99,7 +99,7 @@ else {
 }
 {% endhighlight %}
 
-<center><img src="http://codenuggets.com/wp-content/figures/java-if-else/nested-if.png" /></center>
+<center><img src="/images/figures/java-if-else/nested-if.png" /></center>
 
 We can make the above code easier to read using `else if`. The following code is equivalent to the code above.
 

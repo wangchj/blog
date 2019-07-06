@@ -35,5 +35,5 @@ Today I decided to create a GitHub repository for the <a href="http://codenugget
 
 In addition, during the process of creating a repository I was able to try the new <a href="http://windows.github.com/">GitHub Client for Windows</a>. I believe Mac has a GitHub client for a while now, but the Windows version just came out and the current version is 1.0. The client utilizes the new Windows Metro style GUI and looks different but clean on my Windows 7 machine. The user interface is a lot more intuitive than git-gui, but does not offer as many git operations. The following is a snippet of GitHub for Windows.
 
-<a href="http://codenuggets.com/wp-content/uploads/2012/06/github_client_win.png"><img src="http://codenuggets.com/wp-content/uploads/2012/06/github_client_win-300x196.png" alt="" title="github_client_win" width="300" height="196" class="alignnone size-medium wp-image-316" /></a>
+<a href="/images/uploads/2012/06/github_client_win.png"><img src="/images/uploads/2012/06/github_client_win-300x196.png" alt="" title="github_client_win" width="300" height="196" class="alignnone size-medium wp-image-316" /></a>
 

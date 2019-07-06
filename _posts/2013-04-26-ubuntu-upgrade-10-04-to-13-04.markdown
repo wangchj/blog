@@ -37,7 +37,7 @@ I also installed Cinnamon to replace Unity desktop environment. I installed Cinn
 
 <a id="more"></a><a id="more-477"></a>
 
-<a href="http://codenuggets.com/wp-content/uploads/2013/04/ialb-ub10-04.png"><img class="alignnone size-full wp-image-497" alt="ialb-ub10-04" src="http://codenuggets.com/wp-content/uploads/2013/04/ialb-ub10-04.png" width="630" height="495" /></a>
+<a href="/images/uploads/2013/04/ialb-ub10-04.png"><img class="alignnone size-full wp-image-497" alt="ialb-ub10-04" src="/images/uploads/2013/04/ialb-ub10-04.png" width="630" height="495" /></a>
 
-<a href="http://codenuggets.com/wp-content/uploads/2013/04/php_ilab-ub10-04.html_.gif">phpinfo.html</a>
+<a href="/images/uploads/2013/04/php_ilab-ub10-04.html_.gif">phpinfo.html</a>
 

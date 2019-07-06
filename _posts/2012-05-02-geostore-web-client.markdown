@@ -116,7 +116,7 @@ For the client, I decided to make it web-based (a website). The server talks thr
 
 Currently, the query builder of the client looks like the following figure.
 
-<a href="http://codenuggets.com/wp-content/uploads/2012/05/sparql_spatial_query_builder.png"><img src="http://codenuggets.com/wp-content/uploads/2012/05/sparql_spatial_query_builder.png" alt="" title="sparql_spatial_query_builder" width="550" /></a>
+<a href="/images/uploads/2012/05/sparql_spatial_query_builder.png"><img src="/images/uploads/2012/05/sparql_spatial_query_builder.png" alt="" title="sparql_spatial_query_builder" width="550" /></a>
 
 The client interface is divided into 3 parts. The first part is a SPARQL query editor, where user can type in the SPARQL query. The second part is the query builder where parameters of query pattern and spatial query filters can be built. The geographic regions on the map in the figure above can be interpreted as filtering the query results to within 1km from Auburn Library, 2km from Auburn High School, and within the rectangular region between Thach Ave and Opelika Road. After the user click on the Insert button of the query builder, a pattern or a filter is inserted into the editor. The third and final part of the interface are the sample queries which are listed under the query builder.
 

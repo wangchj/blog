@@ -71,7 +71,7 @@ Output:
 10
 ```
 
-<center><img src="http://codenuggets.com/wp-content/figures/java-loops/while.png" /></center>
+<center><img src="/images/figures/java-loops/while.png" /></center>
 
 The syntax is the same as an `if` statement: condition resides in parentheses and the body to execute are in braces, which are optional. If braces are omitted, only one line is allowed in the body.
 
@@ -92,7 +92,7 @@ Output:
 15
 ```
 
-<center><img src="http://codenuggets.com/wp-content/figures/java-loops/do-while.png" /></center>
+<center><img src="/images/figures/java-loops/do-while.png" /></center>
 
 Notice that although 15 is greater than 10, it is printed out because the condition is checked at the end of the loop. Also there must be a semicolon `;` at the end of the condition.
 
@@ -152,7 +152,7 @@ Output:
 5
 ```
 
-<center><img src="http://codenuggets.com/wp-content/figures/java-loops/for-each.png" /></center>
+<center><img src="/images/figures/java-loops/for-each.png" /></center>
 
 ## Nested Loops
 
@@ -183,7 +183,7 @@ The outer loop repeat 5 times. In each iteration of the outer loop, the inner lo
 
 Notice that the body of the inner loop only has one statement; therefore braces are not needed.
 
-<center><img src="http://codenuggets.com/wp-content/figures/java-loops/nested-loop.png" /></center>
+<center><img src="/images/figures/java-loops/nested-loop.png" /></center>
 
 In theory, loops can be nested in infinitely many levels. For example, you can have a loop inside a loop that is inside another loop. However, one must be careful because every time you have a nested loop, the amount of work is multiplied, not added! Thoughtless nested loops of many levels could cause performance problems.
 

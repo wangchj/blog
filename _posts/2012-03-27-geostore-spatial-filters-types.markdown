@@ -122,7 +122,7 @@ within(?var, xmin, ymin, xmax, ymax)
 </tr>
 </tbody>
 </table>
-<a href="http://codenuggets.com/wp-content/uploads/2012/03/WindowQuery.png"><img src="http://codenuggets.com/wp-content/uploads/2012/03/WindowQuery-150x150.png" alt="Window Query Filter" title="Window Query Filter" width="150" height="150" class="size-thumbnail wp-image-169" /></a> Window Query Filter
+<a href="/images/uploads/2012/03/WindowQuery.png"><img src="/images/uploads/2012/03/WindowQuery-150x150.png" alt="Window Query Filter" title="Window Query Filter" width="150" height="150" class="size-thumbnail wp-image-169" /></a> Window Query Filter
 
 ## Range Filter
 
@@ -157,7 +157,7 @@ within(?var, x, y, rangeMeters)
 </tr>
 </tbody>
 </table>
-<a href="http://codenuggets.com/wp-content/uploads/2012/03/RangeQueryFilter.png"><img src="http://codenuggets.com/wp-content/uploads/2012/03/RangeQueryFilter-150x150.png" alt="Range Query Filter" title="Range Query Filter" width="150" height="150" class="size-thumbnail wp-image-171" /></a> Range Query Filter
+<a href="/images/uploads/2012/03/RangeQueryFilter.png"><img src="/images/uploads/2012/03/RangeQueryFilter-150x150.png" alt="Range Query Filter" title="Range Query Filter" width="150" height="150" class="size-thumbnail wp-image-171" /></a> Range Query Filter
 
 ## NearBy Filter
 

@@ -29,7 +29,7 @@ In previous articles, we explained <a href="http://codenuggets.com/2014/05/14/cs
 
 In the article of two column layout, we explain two columns can be created by floating one element and leave the other non-float. In the same token, we can create three columns, by floating two elements, as shown in the figure below.
 
-<img src="http://codenuggets.com/wp-content/figures/css-three-column-layout/two-floats.png" />
+<img src="/images/figures/css-three-column-layout/two-floats.png" />
 
 {% highlight html %}
 <div style="width:420px">
@@ -51,7 +51,7 @@ Another way two create three columns is to use nested float elements, that is fl
 
 In this approach, we first create two columns; then, within one of the two columns, we create another two columns. There are ways (combinations) of floats placement. One combination is shown below.
 
-<img src="http://codenuggets.com/wp-content/figures/css-three-column-layout/nested-floats.png" />
+<img src="/images/figures/css-three-column-layout/nested-floats.png" />
 
 {% highlight html %}
 <div style="width:440px">

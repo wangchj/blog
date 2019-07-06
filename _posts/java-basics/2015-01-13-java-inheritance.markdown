@@ -48,9 +48,9 @@ In this article, we are going to cover one famous feature of Java, that is inher
 
 Inheritance is a code reuse technique in which one class inherits, or copies, methods and member variables of another class. As an example, consider that we have two classes `Rectangle` and `Square` as shown in the figure below. The `Rectangle` class has two `protected` member variables `width` and `height`, one `public` method `area()` that computes the area, and one `private` method `sum()`.
 
-Conceptually a square is a rectangle, and the logic to compute the area is the same. In this case, it make sense for the `Square` class to inherit the `Rectangle` class and reuse the `area()` method. The figure below shows the inheritance relationship, which denoted by <img src="http://codenuggets.com/wp-content/figures/java-inheritance/arrow.png" /> arrow.
+Conceptually a square is a rectangle, and the logic to compute the area is the same. In this case, it make sense for the `Square` class to inherit the `Rectangle` class and reuse the `area()` method. The figure below shows the inheritance relationship, which denoted by <img src="/images/figures/java-inheritance/arrow.png" /> arrow.
 
-<center><img src="http://codenuggets.com/wp-content/figures/java-inheritance/inherit-basic.png" /></center>
+<center><img src="/images/figures/java-inheritance/inherit-basic.png" /></center>
 
 In Java, inheritance is done using the `**extends**` keyword, as shown in the code below.
 

@@ -59,7 +59,7 @@ In this article we are going to cover polymorphism in Java, which is another wel
 
 Let's say we have the following very simple hierarchy of classes of shapes.
 
-<center><img src="http://codenuggets.com/wp-content/figures/java-polymorphism/polyshapes.png" /></center>
+<center><img src="/images/figures/java-polymorphism/polyshapes.png" /></center>
 
 The `Shape` class is the parent of `Rectangle`, `Triangle`, and `Circle`. The figure can be translated to the following Java classes.
 

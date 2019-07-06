@@ -54,7 +54,7 @@ Now JUnit is configured and we're ready to write unit tests.
 
 The easiest way to create a JUnit test file is to open the class (java file) you want to test and click on the Create jUnit Test File button, as shown below. For example, if you have `Selector.java`, clicking Create Test File button will create a test file named `SelectorTest.java`.
 
-<img src="http://codenuggets.com/wp-content/figures/setup-junit-in-jgrasp/jgrasp-test-cmd.png" />
+<img src="/images/figures/setup-junit-in-jgrasp/jgrasp-test-cmd.png" />
 
 Another way to create tests is to create your own test file. The following is a template of JUnit test file. If you create your own test file, make sure jGrasp knows it's a  test file. To do so you can drag your test file into test file group in the project.
 

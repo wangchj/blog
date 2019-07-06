@@ -26,5 +26,5 @@ Ran College of Engineering Short Circuit 5K today. This is my first competitive 
 
 The following is the route.
 
-<a href="http://codenuggets.com/wp-content/uploads/2013/04/eng-short-circuit-5k.jpg"><img src="http://codenuggets.com/wp-content/uploads/2013/04/eng-short-circuit-5k.jpg" alt="eng-short-circuit-5k" width="478" height="640" class="alignnone size-full wp-image-470" /></a>
+<a href="/images/uploads/2013/04/eng-short-circuit-5k.jpg"><img src="/images/uploads/2013/04/eng-short-circuit-5k.jpg" alt="eng-short-circuit-5k" width="478" height="640" class="alignnone size-full wp-image-470" /></a>
 

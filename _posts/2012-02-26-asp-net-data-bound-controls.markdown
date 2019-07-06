@@ -95,11 +95,11 @@ I had always known about the GridView server control in ASP.NET even when I was 
 
 To use a data-bound control, just drag a control (e.g. GridView) onto the design canvas, and click on the smart tag of the control to connect the control to a data source as shown in figure below. In Choose Data Source, select New Data Source, and select your database connection. This will add a new DataSource object to your page.
 
-<a href="http://codenuggets.com/wp-content/uploads/2012/02/gridview_smarttag.png"><img class="size-medium wp-image-45 " title="GridView Smart Tag" src="http://codenuggets.com/wp-content/uploads/2012/02/gridview_smarttag-300x109.png" alt="GridView Smart Tag" width="300" height="109" /></a> GridView Smart Tag
+<a href="/images/uploads/2012/02/gridview_smarttag.png"><img class="size-medium wp-image-45 " title="GridView Smart Tag" src="/images/uploads/2012/02/gridview_smarttag-300x109.png" alt="GridView Smart Tag" width="300" height="109" /></a> GridView Smart Tag
 
 During the configuration of the data source, you can still manually write your SQL statements, but the tool also include a Query Builder, which can be used to visually build the query as shown below.
 
-<a href="http://codenuggets.com/wp-content/uploads/2012/02/querybuilder.png"><img src="http://codenuggets.com/wp-content/uploads/2012/02/querybuilder-300x218.png" alt="" title="Query Builder" width="300" height="218" class="size-medium wp-image-47" /></a> Visual Studio Query Builder
+<a href="/images/uploads/2012/02/querybuilder.png"><img src="/images/uploads/2012/02/querybuilder-300x218.png" alt="" title="Query Builder" width="300" height="218" class="size-medium wp-image-47" /></a> Visual Studio Query Builder
 
 After finish configuration the data source, we have a grid with data from our database on the page.
 

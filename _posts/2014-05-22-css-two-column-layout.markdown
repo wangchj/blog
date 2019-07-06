@@ -56,7 +56,7 @@ Consider these examples:
 </div>
 {% endhighlight %}
 
-<img src="http://codenuggets.com/wp-content/figures/css-columns/overlap-box.png" />
+<img src="/images/figures/css-columns/overlap-box.png" />
 
 2\. <u>Expand the width</u> of the non-float element so that there is enough space for text to be placed next to the float element, as shown in the first figure. The problem with this approach is that when the text gets longer, it gets wrapped below the float element, as in second figure.
 
@@ -76,9 +76,9 @@ Consider these examples:
 </div>
 {% endhighlight %}
 
-<img src="http://codenuggets.com/wp-content/figures/css-columns/expand-width-1.png" />
+<img src="/images/figures/css-columns/expand-width-1.png" />
 
-<img src="http://codenuggets.com/wp-content/figures/css-columns/expand-width-2.png" />
+<img src="/images/figures/css-columns/expand-width-2.png" />
 
 3\. <u>Expand the margin</u> of the non-float element to clear the float element as shown in the figure below.
 Although, the content of the non-float element completely clears the float element, their boxes still overlap. The pink area in the figure represents the margins and blue the content area of the non-float element. Clearly, the two `divs`s still overlap. But without the borders, they appear as two columns to viewers.
@@ -100,7 +100,7 @@ Although, the content of the non-float element completely clears the float eleme
 </div>
 {% endhighlight %}
 
-<img src="http://codenuggets.com/wp-content/figures/css-columns/wide-margin.png" />
+<img src="/images/figures/css-columns/wide-margin.png" />
 
 Generally, using the margin, as shown in this example, is the best way to create columns in CSS.
 
@@ -110,4 +110,4 @@ In addition to mixing float and non-float elements, we can also float both eleme
 	
 One thing to watch out for is the <u>float drop</u>, as shown below. This situation happens when the parent container of the floats don't have enough space. The fix for this is to increase the width of the parent container.
 
-<img src="http://codenuggets.com/wp-content/figures/css-columns/drop.png" />
+<img src="/images/figures/css-columns/drop.png" />
